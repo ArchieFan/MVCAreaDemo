@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Employer Area Index</h2>
+
+<table border="1">
+    <tr>
+        <td>@Html.ActionLink("Main Area", "Index", "Home", new { area = "" }, null)</td>
+    </tr>
+    <tr>
+        <td>@Html.ActionLink("Employer Area", "Index", "Home", new { area = "Employer" }, null)</td>
+    </tr>
+    <tr>
+        <td>@Html.ActionLink("Admin Area", "Index", "Home", new { area = "Admin" }, null)</td>
+    </tr>
+</table>
